@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+.banner {
+    height: 100px;
+    background-color: black;
+    color: beige;
+}
+.banner {
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+main {
+    display: flex;
+}
+section {
+    border: solid 1px black;
+    background-image: linear-gradient(to bottom, #9cc1f9, #78a9ff, #598fff, #4773ff, #4951ff);
+    color: rgb(4, 75, 62);
+    height: 70%;
+    text-align: justify;
+}
+.barralateral {
+    border: solid 1px black;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom, #5f49c0, #0e45a5, #00328d, #1e2c5a, #121437);
+    color: rgb(88, 171, 209);
+
+}
+.piedepag {
+    border: solid 1px black;
+    background-color: rgb(37, 37, 38);
+    color: rgb(97, 97, 95);
+}
+ul{
+    list-style-type: none;
+}
+p {
+    text-indent: 30px;
+}
+.profilepic{
+    width: 25%;
+    display:block;
+    justify-content: flex-end;
+}
+.piedepag{display: flex;
+    align-items: center;
+    justify-content:space-around; 
+}
+button{
+    background-color: #7777f5;
+}
+h1{
+    font-family: 'New Tegomin', serif;
+    color: rgb(236, 236, 241);
+}
+h2,h3{
+    font-family: 'New Tegomin', serif;
+    color: rgb(18, 18, 61);
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+.pie{
+    background-color: rgb(78, 78, 150);
+}
+@media (max-width: 768px){
+    .profilepic {
+        width: 100%;
+    }
+    figure {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    aside{
+        padding: 30px;
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    button {
+        width: 100%;
+    }
+    figure {
+        display: flex;
+        flex-direction: column;
+    }
+    .profilepic {
+        width: 100%;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        height: 180px;
+        
+    }
+    .barralateral{
+        order:-1
+    }
+    main{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+

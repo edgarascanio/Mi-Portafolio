@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    height: 100px;;
+    background-color: grey;
+}
+ul{
+    display:flex;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+    border-bottom: green 2px solid;
+    padding: 10px;
+}
+li:link
+li:visited
+li:hover{
+
+}
+h
